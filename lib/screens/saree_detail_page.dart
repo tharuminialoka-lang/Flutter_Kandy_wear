@@ -39,7 +39,20 @@ class SareeDetailPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // Current saree image
-              Center(child: Image.asset(image, height: 250)),
+              Center(
+                child: SizedBox(
+                  height: 500,       // all images same height
+                  width: 400,        // all images same width (adjust as needed)
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(10), // optional rounded corners
+                    child: Image.asset(
+                      image,
+                      fit: BoxFit.cover,  // fills the box, cropping if needed
+                    ),
+                  ),
+                ),
+              ),
+
 
               SizedBox(height: 20),
 
@@ -54,7 +67,7 @@ class SareeDetailPage extends StatelessWidget {
 
               // Description
               Text(
-                "This is a beautiful $name perfect for any traditional occasion. Made with high-quality materials to ensure comfort and elegance.",
+                "This is a beautiful $name Saree perfect for any traditional occasion. Made with high-quality materials to ensure comfort and elegance.",
                 style: TextStyle(fontSize: 16),
               ),
 

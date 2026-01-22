@@ -38,6 +38,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   #cupertino_icons: ^1.0.2
   google_fonts: ^6.1.0
+  shared_preferences: ^2.2.2
   
 
 dev_dependencies:
@@ -66,16 +67,62 @@ flutter:
     - assets/batik2.jpg
     - assets/batik3.jpg
 
-    - assets/kandiyan.jpg
+    - assets/kandiyan1.jpg
     - assets/kandiyan2.jpg
     - assets/kandiyan3.jpg
 
-    - assets/handloom.jpg
+    - assets/handloom1.jpg
     - assets/handloom2.jpg
+    - assets/handloom3.jpg
 
-    - assets/kanchipuram.jpg
+    - assets/kanchipuram1.jpg
     - assets/kanchipuram2.jpg
     - assets/kanchipuram3.jpg
+
+    - assets/cotton1.jpg
+    - assets/cotton2.jpg
+    - assets/cotton3.jpg
+
+    - assets/bridal1.jpg
+    - assets/bridal2.jpg
+    - assets/bridal3.jpg
+
+    - assets/georgette1.jpg
+    - assets/georgette2.jpg
+    - assets/georgette3.jpg
+
+    - assets/linen1.jpg
+    - assets/linen2.jpg
+    - assets/linen3.jpg
+
+    - assets/satin1.jpg
+    - assets/satin2.jpg
+    - assets/satin3.jpg
+
+    - assets/velvet1.jpg
+    - assets/velvet2.jpeg
+    - assets/velvet3.jpg
+
+    - assets/mysore1.jpg
+    - assets/mysore2.jpg
+    - assets/mysore3.jpg
+
+    - assets/printed1.jpg
+    - assets/printed2.jpeg
+    - assets/printed3.jpg
+
+    - assets/embroidered1.jpg
+    - assets/embroidered2.jpg
+    - assets/embroidered3.jpg
+    
+    - assets/organza1.jpg
+    - assets/organza2.jpg
+    - assets/organza3.jpg
+
+    - assets/banarasi1.jpg
+    - assets/banarasi2.jpg
+    - assets/banarasi3.jpg
+
     - assets/user.jpg
 
  
